@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby
+# Set your environment here.
+ENV["RAILS_ENV"] ||= "development"
+
+require_relative "../config/environment"
+
+puts "Rails was loaded!"
+
+require 'rcron/callback'
